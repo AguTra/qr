@@ -111,9 +111,9 @@ export const ScannerView: React.FC<ScannerViewProps> = ({ onScanSuccess }) => {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 transition-colors duration-300">
-      <h2>Leé códigos QR con tu cámara o desde la galeria</h2>
+      <h2 className='text-lg font-semibold text-gray-800 dark:text-gray-200'>Escaneá códigos QR</h2>
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-        Revisa tu historial de escaneos.</p>
+      Todo desde tu camara o cargando una imagen!.</p>
       <div 
         id={scannerContainerId} 
         className={`w-full aspect-square rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-900 flex items-center justify-center mb-4 transition-colors duration-300 ${isScanning ? 'border-2 border-indigo-500' : ''}`}

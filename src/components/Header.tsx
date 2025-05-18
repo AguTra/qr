@@ -13,13 +13,13 @@ export const Header: React.FC = () => {
           <h1 className="text-xl font-bold">Escanear QR</h1>
         </div>
         
-        {/* <button 
+         <button 
           onClick={toggleTheme}
           className="p-2 rounded-full hover:bg-indigo-700 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
           aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
         >
           {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-        </button> */}
+        </button> 
       </div>
     </header>
   );
